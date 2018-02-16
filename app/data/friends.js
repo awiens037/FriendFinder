@@ -29,6 +29,21 @@ var friends = [{
             1,
             1,
         ]
+    }, {
+        name: "Goku",
+        photo: "https://vignette.wikia.nocookie.net/protagonists/images/0/09/Goku.png/revision/latest?cb=20150903162752",
+        selection: [
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+        ]
     }];
 
 // Export Array
