@@ -74,6 +74,21 @@ var friends = [{
             4,
             4,
         ]
+    }, {
+        name: "Andy Wiens",
+        photo: "https://media-exp2.licdn.com/mpr/mpr/shrinknp_200_200/AAIA_wDGAAAAAQAAAAAAAAxKAAAAJGRmMDJiMmRjLWU1MzktNDA4ZS1hNTdhLTU3ZDFkYTE0N2ExMA.jpg",
+        selection: [
+            5,
+            5,
+            4,
+            5,
+            4,
+            4,
+            5,
+            5,
+            5,
+            5,
+        ]
     }];
 
 // Export Array

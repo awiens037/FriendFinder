@@ -135,8 +135,8 @@
             <i class="fa fa-check-circle" aria-hidden="true"></i> Submit
         </button>
         <!-- Modal -->
-        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog" role="document">
+        <div class="modal fade" id="myModal" tabindex="-1" photo="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" photo="document">
                 <div class="modal-content">
                     <div class="modal-header">
                         <h5 class="modal-title" id="exampleModalLabel">YOUR MATCH!</h5>
@@ -170,7 +170,7 @@
             $("#submit").on("click", function () {
                 var newFriend = {
                     name: $("#name").val().trim(),
-                    role: $("#photo").val().trim(),
+                    photo: $("#photo").val().trim(),
                     selection: [$("#q1").val(), $("#q2").val(), $("#q3").val(), $("#q4").val(), $("#q5").val(), $("#q6").val(), $("#q7").val(), $("#q8").val(), $("#q9").val(), $("#q10").val()]
                 };
                 console.log(newFriend);
