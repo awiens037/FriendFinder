@@ -44,6 +44,36 @@ var friends = [{
             3,
             3,
         ]
+    }, {
+        name: "Tony Stark",
+        photo: "https://nerdist.com/wp-content/uploads/2016/04/Iron-Man.jpg",
+        selection: [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+        ]
+    }, {
+        name: "Jack Black",
+        photo: "https://resizing.flixster.com/1boQKxt5N2mToISTm_lEGZWjcHY=/300x300/v1.bjsxMDk0MjY1O2o7MTc2MDc7MTIwMDsyMDQ4OzEwMjQ",
+        selection: [
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+        ]
     }];
 
 // Export Array
