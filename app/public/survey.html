@@ -181,14 +181,14 @@
                     });
                 $.ajax({ url: currentURL + "/api/friends", method: "GET" })
                     .done(function (friendData) {
-                        // Here we then log the NYTData to console, where it will show up as an object.
+                        // Here we then log the Data to console, where it will show up as an object.
                         console.log(friendData);
                         console.log(friendData[0].selection[2]);
                         var totalScore = 100;
                         var score = 0;
                         var a = [];
                         var j = friendData.length - 1;
-                        // Loop through and display each of the customers
+                        // Loop through and display each of the friends
                         for (var i = 0; i < friendData.length - 1; i++) {
                             var score1 = Math.abs(friendData[i].selection[0] - friendData[j].selection[0]);
                             var score2 = Math.abs(friendData[i].selection[1] - friendData[j].selection[1]);
